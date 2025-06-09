@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D02D05D2DBCC110002DDFE3 /* simsekcetinilk_seviye.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D02D05C2DBCC110002DDFE3 /* simsekcetinilk_seviye.c */; };
+		2D02D0602DBCC11D002DDFE3 /* simsekcetinikinci_seviye.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D02D05F2DBCC11D002DDFE3 /* simsekcetinikinci_seviye.c */; };
+		2D58F3482DC4DC93005662C3 /* simsekcetinkullanici.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D58F3472DC4DC93005662C3 /* simsekcetinkullanici.c */; };
+		2D7642112DBE2EBF00FF711C /* simsekcetinUtility.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D7642102DBE2EBF00FF711C /* simsekcetinUtility.c */; };
+		2D98D3B02DBCBD55002F1C2C /* simsekcetinmain.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D98D3AF2DBCBD55002F1C2C /* simsekcetinmain.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2D98D3AA2DBCBD55002F1C2C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2D02D05B2DBCC110002DDFE3 /* simsekcetinilk_seviye.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = simsekcetinilk_seviye.h; sourceTree = "<group>"; };
+		2D02D05C2DBCC110002DDFE3 /* simsekcetinilk_seviye.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = simsekcetinilk_seviye.c; sourceTree = "<group>"; };
+		2D02D05E2DBCC11D002DDFE3 /* simsekcetinikinci_seviye.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = simsekcetinikinci_seviye.h; sourceTree = "<group>"; };
+		2D02D05F2DBCC11D002DDFE3 /* simsekcetinikinci_seviye.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = simsekcetinikinci_seviye.c; sourceTree = "<group>"; };
+		2D58F3462DC4DC93005662C3 /* simsekcetinkullanici.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = simsekcetinkullanici.h; sourceTree = "<group>"; };
+		2D58F3472DC4DC93005662C3 /* simsekcetinkullanici.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = simsekcetinkullanici.c; sourceTree = "<group>"; };
+		2D76420F2DBE2EBF00FF711C /* simsekcetinUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = simsekcetinUtility.h; sourceTree = "<group>"; };
+		2D7642102DBE2EBF00FF711C /* simsekcetinUtility.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = simsekcetinUtility.c; sourceTree = "<group>"; };
+		2D98D3AC2DBCBD55002F1C2C /* Treasure Hunt Adventure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Treasure Hunt Adventure"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D98D3AF2DBCBD55002F1C2C /* simsekcetinmain.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = simsekcetinmain.c; sourceTree = "<group>"; };
+		2D98D3B62DBCBD77002F1C2C /* Empty.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Empty.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D98D3A92DBCBD55002F1C2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D98D3A32DBCBD55002F1C2C = {
+			isa = PBXGroup;
+			children = (
+				2D98D3AE2DBCBD55002F1C2C /* Treasure Hunt Adventure */,
+				2D98D3AD2DBCBD55002F1C2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D98D3AD2DBCBD55002F1C2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D98D3AC2DBCBD55002F1C2C /* Treasure Hunt Adventure */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D98D3AE2DBCBD55002F1C2C /* Treasure Hunt Adventure */ = {
+			isa = PBXGroup;
+			children = (
+				2D98D3AF2DBCBD55002F1C2C /* simsekcetinmain.c */,
+				2D98D3B62DBCBD77002F1C2C /* Empty.md */,
+				2D02D05B2DBCC110002DDFE3 /* simsekcetinilk_seviye.h */,
+				2D02D05C2DBCC110002DDFE3 /* simsekcetinilk_seviye.c */,
+				2D02D05E2DBCC11D002DDFE3 /* simsekcetinikinci_seviye.h */,
+				2D02D05F2DBCC11D002DDFE3 /* simsekcetinikinci_seviye.c */,
+				2D76420F2DBE2EBF00FF711C /* simsekcetinUtility.h */,
+				2D7642102DBE2EBF00FF711C /* simsekcetinUtility.c */,
+				2D58F3462DC4DC93005662C3 /* simsekcetinkullanici.h */,
+				2D58F3472DC4DC93005662C3 /* simsekcetinkullanici.c */,
+			);
+			path = "Treasure Hunt Adventure";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D98D3AB2DBCBD55002F1C2C /* Treasure Hunt Adventure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D98D3B32DBCBD55002F1C2C /* Build configuration list for PBXNativeTarget "Treasure Hunt Adventure" */;
+			buildPhases = (
+				2D98D3A82DBCBD55002F1C2C /* Sources */,
+				2D98D3A92DBCBD55002F1C2C /* Frameworks */,
+				2D98D3AA2DBCBD55002F1C2C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Treasure Hunt Adventure";
+			productName = "Treasure Hunt Adventure";
+			productReference = 2D98D3AC2DBCBD55002F1C2C /* Treasure Hunt Adventure */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D98D3A42DBCBD55002F1C2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					2D98D3AB2DBCBD55002F1C2C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 2D98D3A72DBCBD55002F1C2C /* Build configuration list for PBXProject "Treasure Hunt Adventure" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D98D3A32DBCBD55002F1C2C;
+			productRefGroup = 2D98D3AD2DBCBD55002F1C2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D98D3AB2DBCBD55002F1C2C /* Treasure Hunt Adventure */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D98D3A82DBCBD55002F1C2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D98D3B02DBCBD55002F1C2C /* simsekcetinmain.c in Sources */,
+				2D58F3482DC4DC93005662C3 /* simsekcetinkullanici.c in Sources */,
+				2D7642112DBE2EBF00FF711C /* simsekcetinUtility.c in Sources */,
+				2D02D0602DBCC11D002DDFE3 /* simsekcetinikinci_seviye.c in Sources */,
+				2D02D05D2DBCC110002DDFE3 /* simsekcetinilk_seviye.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2D98D3B12DBCBD55002F1C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2D98D3B22DBCBD55002F1C2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2D98D3B42DBCBD55002F1C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2D98D3B52DBCBD55002F1C2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D98D3A72DBCBD55002F1C2C /* Build configuration list for PBXProject "Treasure Hunt Adventure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D98D3B12DBCBD55002F1C2C /* Debug */,
+				2D98D3B22DBCBD55002F1C2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D98D3B32DBCBD55002F1C2C /* Build configuration list for PBXNativeTarget "Treasure Hunt Adventure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D98D3B42DBCBD55002F1C2C /* Debug */,
+				2D98D3B52DBCBD55002F1C2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D98D3A42DBCBD55002F1C2C /* Project object */;
+}
